@@ -1,0 +1,43 @@
+{
+  "name": "game-timer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "prebuild": "mv dist/.git .",
+    "build": "vue-cli-service build",
+    "postbuild": "mv ./.git dist/",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "core-js": "^2.6.11",
+    "cuid": "^2.1.8",
+    "register-service-worker": "^1.7.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.3",
+    "vue-shortkey": "^3.1.7",
+    "vue2-touch-events": "^2.3.2",
+    "vuedraggable": "^2.24.1",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
+    "@vue/cli-plugin-pwa": "^3.12.1",
+    "@vue/cli-plugin-unit-jest": "^4.5.6",
+    "@vue/cli-service": "^4.5.6",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-digitalcomet": "^1.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
