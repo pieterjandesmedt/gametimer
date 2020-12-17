@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "prebuild": "mv dist/.git .",
     "build": "vue-cli-service build",
-    "postbuild": "mv ./.git dist/",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
